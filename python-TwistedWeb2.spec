@@ -80,8 +80,8 @@ rm -rf $RPM_BUILD_ROOT
 %{py_sitedir}/twisted/web2
 %{py_sitedir}/twisted/plugins/twisted_web2.py[co]
 
-%files doc
-%defattr(644,root,root,755)
+#%files doc
+#%defattr(644,root,root,755)
 
 %files examples
 %defattr(644,root,root,755)
