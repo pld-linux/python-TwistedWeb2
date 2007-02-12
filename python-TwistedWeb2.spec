@@ -1,7 +1,7 @@
 %define 	module	TwistedWeb2
 
 Summary:	Web library for Twisted
-Summary(pl.UTF-8):   Biblioteka Web dla Twisted
+Summary(pl.UTF-8):	Biblioteka Web dla Twisted
 Name:		python-%{module}
 Version:	0.2.0
 Release:	0.1
@@ -28,7 +28,7 @@ programowania WWW.
 
 %package doc
 Summary:	Documentation for TwistedWeb2
-Summary(pl.UTF-8):   Dokumentacja do TwistedWeb2
+Summary(pl.UTF-8):	Dokumentacja do TwistedWeb2
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
@@ -40,7 +40,7 @@ Dokumentacja offline do TwistedWeb2.
 
 %package examples
 Summary:	Example programs for TwistedWeb2
-Summary(pl.UTF-8):   Programy przykładowe do TwistedWeb2
+Summary(pl.UTF-8):	Programy przykładowe do TwistedWeb2
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
