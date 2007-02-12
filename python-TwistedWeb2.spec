@@ -1,7 +1,7 @@
 %define 	module	TwistedWeb2
 
 Summary:	Web library for Twisted
-Summary(pl):	Biblioteka Web dla Twisted
+Summary(pl.UTF-8):   Biblioteka Web dla Twisted
 Name:		python-%{module}
 Version:	0.2.0
 Release:	0.1
@@ -21,34 +21,34 @@ Twisted Web2 is a web application server written in pure Python, with
 APIs at multiple levels of abstraction to facilitate different kinds
 of web programming.
 
-%description -l pl
+%description -l pl.UTF-8
 Twisted Web2 to serwer aplikacji WWW napisany w czystym Pythonie z API
-o wielu poziomach abstrakcji, maj±cych u³atwiæ ró¿ne rodzaje
+o wielu poziomach abstrakcji, majÄ…cych uÅ‚atwiÄ‡ rÃ³Å¼ne rodzaje
 programowania WWW.
 
 %package doc
 Summary:	Documentation for TwistedWeb2
-Summary(pl):	Dokumentacja do TwistedWeb2
+Summary(pl.UTF-8):   Dokumentacja do TwistedWeb2
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
 %description doc
 Offline documentation for TwistedWeb2.
 
-%description doc -l pl
+%description doc -l pl.UTF-8
 Dokumentacja offline do TwistedWeb2.
 
 %package examples
 Summary:	Example programs for TwistedWeb2
-Summary(pl):	Programy przyk³adowe do TwistedWeb2
+Summary(pl.UTF-8):   Programy przykÅ‚adowe do TwistedWeb2
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
 %description examples
 This package contains example programs for TwistedWeb2.
 
-%description examples -l pl
-Ten pakiet zawiera przyk³adowe programy dla TwistedWeb2.
+%description examples -l pl.UTF-8
+Ten pakiet zawiera przykÅ‚adowe programy dla TwistedWeb2.
 
 %prep
 %setup -q -n %{module}-%{version}
