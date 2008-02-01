@@ -1,0 +1,29 @@
+--- TwistedWeb2-0.2.0/twisted/web2/iweb.py~	2006-03-12 21:59:12.000000000 +0100
++++ TwistedWeb2-0.2.0/twisted/web2/iweb.py	2008-02-01 16:04:07.688417247 +0100
+@@ -55,7 +55,7 @@
+             return IResource(result)
+ IResource.__class__ = SpecialAdaptInterfaceClass
+ 
+-class IOldNevowResource(components.Interface):
++class IOldNevowResource(Interface):
+     # Shared interface with inevow.IResource
+     """
+         I am a web resource.
+@@ -75,7 +75,7 @@
+         string instead of a response object.
+         """
+ 
+-class ICanHandleException(components.Interface):
++class ICanHandleException(Interface):
+     # Shared interface with inevow.ICanHandleException
+     def renderHTTP_exception(self, request, failure):
+         """Render an exception to the given request object.
+@@ -109,7 +109,7 @@
+         
+     chanRequest = Attribute("The ChannelRequest. I wonder if this is public really?")
+ 
+-class IOldRequest(components.Interface):
++class IOldRequest(Interface):
+     # Shared interface with inevow.ICurrentSegments
+     """An old HTTP request.
+ 
