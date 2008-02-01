@@ -4,11 +4,12 @@ Summary:	Web library for Twisted
 Summary(pl.UTF-8):	Biblioteka Web dla Twisted
 Name:		python-%{module}
 Version:	0.2.0
-Release:	0.1
+Release:	1
 License:	MIT
 Group:		Libraries/Python
 Source0:	http://tmrc.mit.edu/mirror/twisted/Web2/%{module}-%{version}.tar.bz2
 # Source0-md5:	7d6dea006d7f1e004df9f6aad730fbee
+Patch0:		%{name}-deprecated.patch
 URL:		http://twistedmatrix.com/projects/web2/
 BuildRequires:	ZopeInterface
 BuildRequires:	python-TwistedCore >= 2.4.0
@@ -52,6 +53,7 @@ Ten pakiet zawiera przykładowe programy dla TwistedWeb2.
 
 %prep
 %setup -q -n %{module}-%{version}
+%patch0 -p1
 
 %build
 CFLAGS="%{rpmcflags}"
