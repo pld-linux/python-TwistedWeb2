@@ -4,7 +4,7 @@ Summary:	Web library for Twisted
 Summary(pl.UTF-8):	Biblioteka Web dla Twisted
 Name:		python-%{module}
 Version:	8.0.1
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 Source0:	http://tmrc.mit.edu/mirror/twisted/Web2/8.0/%{module}-%{version}.tar.bz2
