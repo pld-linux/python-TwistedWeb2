@@ -12,6 +12,7 @@ Group:		Libraries/Python
 Source0:	http://tmrc.mit.edu/mirror/twisted/Web2/%{major}/%{module}-%{version}.tar.bz2
 # Source0-md5:	e34b48edf6fef075bd41ddbd215aed32
 URL:		http://twistedmatrix.com/trac/wiki/TwistedWeb2
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	ZopeInterface
 BuildRequires:	python-TwistedCore >= 2.4.0
 BuildRequires:	python-devel >= 1:2.5
